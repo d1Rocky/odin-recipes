@@ -4,6 +4,10 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+body.home-page {
+    background-image: url('images/family-cookout.avif');    
+}
+
 #main-page li:hover {
     color: red;
 }
