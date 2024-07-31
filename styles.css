@@ -1,11 +1,36 @@
 /* this is for main page - index.html */
 
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 #main-page li:hover {
     color: red;
 }
 
-#main-page {
-    background-color: aqua;
+#title {
+    text-align: center;
+}
+
+.text-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.text-centered ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-centered li {
+    margin: 0 10px;
+}
+
+.text-centered a {
+    text-decoration: none;
+    color: #030303;
 }
 
 /* end of main page */
