@@ -1,10 +1,9 @@
-/* this is for main page - index.html */
 
 body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-body.home-page {
+body.home-page {       /*background image for main page*/
     background-image: url('images/food.jpeg');    
     background-repeat: no-repeat;
     background-position: center;
@@ -12,23 +11,25 @@ body.home-page {
     background-size: cover;
 }
 
-.bg-falafel {
+.bg-falafel {          /*background for falafel.html*/
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(120deg, #43d41e, #f2f3ed);
 }
 
-.bg-enchiladas {
+.bg-enchiladas {      /*background for enchiladas.html*/
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(120deg, #c21c1c, #dbf300);
 }
 
-.bg-cake {
+.bg-cake {         /*background for pineapplecake.html*/
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(120deg, #faf7f7, #dbf300);
 }
+
+  /* Main page editing*/
 
 #main-page li:hover {
     color: red;
@@ -50,7 +51,7 @@ body.home-page {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: rgba(255, 255, 255, 0.8); /* Light background with opacity */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 10px;
     border-radius: 10px;
 }
@@ -62,13 +63,7 @@ body.home-page {
 .text-centered a {
     text-decoration: none;
     color: #030303;
-    background-color: rgba(11, 72, 102, 0.8); /* Light background with opacity */
+    background-color: rgba(11, 72, 102, 0.8);
     padding: 5px;
     border-radius: 5px;
 }
-
-/* end of main page */
-
-/* falafel page */ 
-
-
